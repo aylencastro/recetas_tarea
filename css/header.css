@@ -26,9 +26,10 @@ header a:hover{color: #d27372;}
 header nav ul{
     display: flex;
     justify-content: space-around;
-    list-style-type: none;
     flex-wrap: nowrap;
 }
+
+header nav ul li{list-style-type: none;}
 
 header nav{
     margin: auto;

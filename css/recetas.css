@@ -1,0 +1,14 @@
+.recetas-texto{
+    margin: 2rem auto 0;
+    width: 95%;
+}
+
+iframe{
+    height: 30rem;
+    width: 100%;
+}
+
+#video-pan{
+    justify-content: center;
+    height:fit-content
+}

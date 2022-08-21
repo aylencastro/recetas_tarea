@@ -9,7 +9,7 @@ footer{
 
 footer p, .git-href{
     color: #B9BAA3;
-    margin: auto;
+    text-align: center;
 }
 
 .git-href, .git-href:visited{
