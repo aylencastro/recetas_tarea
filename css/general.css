@@ -39,7 +39,7 @@ section{
     margin-bottom: 1rem;
 }
 
-p, .ul-text{
+p, .ul-text, label{
     font-family: 'Tenor Sans', sans-serif;
     text-align: justify;
     font-size: 1rem;

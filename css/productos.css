@@ -1,0 +1,40 @@
+.prod-title{
+    color: #6a1e1a;
+    font-weight: 900;
+    text-align: center;
+}
+
+.merch{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+.productos{
+    width: 45%;
+    height: 20rem;
+    margin-bottom: 1rem;
+}
+
+form{
+    margin: 2rem auto;
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+}
+
+.input, #consulta{
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    min-height: 2rem;
+}
+
+#enviar{
+    width: 5rem;
+    height: 2rem;
+    margin: auto;
+    color: #D6D5C9;
+    background-color: #A22C29;
+}
