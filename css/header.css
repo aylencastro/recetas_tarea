@@ -1,0 +1,35 @@
+/* 0A100D oscuro
+B9BAA3 gris
+D6D5C9 fondo claro
+A22C29 rojo claro
+902923 bordo */
+
+header{
+    background-color: #902923;
+    height: 3.5rem;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+    font-weight: 800;
+}
+
+header a, header a:visited{
+    color: #B9BAA3;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-shadow: #0A100D 1.5px 1.5px;
+}
+
+header a:hover{color: #d27372;}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-wrap: nowrap;
+}
+
+header nav{
+    margin: auto;
+}

@@ -1,0 +1,71 @@
+/* color palette:
+0A100D oscuro
+B9BAA3 gris
+D6D5C9 fondo claro
+A22C29 rojo claro
+902923 bordo
+*/
+
+html{scroll-behavior: smooth;}
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    height: fit-content;
+    background-color: #D6D5C9;
+}
+
+main{
+    margin-top: 3.5rem;
+    min-height: 45rem;
+}
+
+a, a:visited{
+    color: #902923;
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: #A22C29 0.5px 0.5px;
+}
+
+section div{
+    width: 95%;
+    margin: 2rem auto;
+}
+
+section{
+    margin-bottom: 1rem;
+}
+
+p, .ul-text{
+    font-family: 'Tenor Sans', sans-serif;
+    text-align: justify;
+    font-size: 1rem;
+    color: #050807;
+    margin-bottom: 0;
+}
+
+.title{
+    width: 100%;
+    color: #6a1e1a;
+    font-size: 2rem;
+    text-align: center;
+    font-family: fantasy;
+    margin: 5rem 0 auto;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.separador{
+    width: 50%;
+    height: 3%;
+}
+
+#img-cooking{
+    width: 90%;
+}
