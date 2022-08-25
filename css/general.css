@@ -69,3 +69,22 @@ img{
 #img-cooking{
     width: 90%;
 }
+
+article{
+    background-image: url(../pics/bgrojo.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #D6D5C9;
+    text-shadow: #0A100D 1.5px 1.5px;
+}
+
+article div{
+    padding: 2rem;
+}
+
+article p{
+    color: #D6D5C9;
+}
