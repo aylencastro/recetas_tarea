@@ -17,13 +17,14 @@ body{
 }
 
 main{
-    margin-top: 3.5rem;
+    position: relative;
     min-height: 45rem;
+    margin-top: 4.2rem;
 }
 
 a, a:visited{
     color: #902923;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a:hover{
@@ -31,7 +32,7 @@ a:hover{
 }
 
 section div{
-    width: 95%;
+    width: 90%;
     margin: 2rem auto;
 }
 
@@ -62,7 +63,7 @@ img{
 }
 
 .separador{
-    width: 50%;
+    width: 65%;
     height: 3%;
 }
 
@@ -82,7 +83,7 @@ article{
 }
 
 article div{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 article p{

@@ -15,6 +15,7 @@ footer p, .git-href{
 .git-href, .git-href:visited{
     font-weight: 600;
     color: inherit;
-    text-shadow: #0A100D 1.5px 1.5px;}
+    text-shadow: #0A100D 1.5px 1.5px;
+}
 
 .git-href:hover{color: #e4e4dc}

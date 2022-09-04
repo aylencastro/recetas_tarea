@@ -3,6 +3,10 @@
     width: 95%;
 }
 
+.recetas-texto ul li a:visited{
+    color: #902923 !important;
+}
+
 iframe{
     height: 30rem;
     width: 100%;

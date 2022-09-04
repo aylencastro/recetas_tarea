@@ -10,19 +10,46 @@
     <link rel="stylesheet" href="css/nosotros.css">
     <link rel="stylesheet" href="css/productos.css">
     <link rel="stylesheet" href="css/recetas.css">
+
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <title>Recetas | Inicio</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/recetas.html">Recetas</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-            </ul>
+    <header class="d-flex flex-wrap fixed-top">
+        <nav class="navbar container-fluid navbar-expand-md">
+            <button class="navbar-toggler mx-3 navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Toggle navigation" role="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse align-items-center justify-content-center" id="menuNavegacion">
+                <ul class="navbar-nav col-md-auto flex-md-row">
+                    <li class="nav-item mx-4">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown mx-4">
+                    <a class="nav-link active dropdown-toggle" href="./pages/recetas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Recetas
+                    </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/recetas.html">Galletitas Dulces</a></li>
+                            <li><a class="dropdown-item" href="./pages/recetas.html">Mousse</a></li>
+                            <li><a class="dropdown-item" href="./pages/recetas.html">Pan</a></li>
+                            <li><a class="dropdown-item" href="./pages/recetas.html">Wok</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-4">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                    <a class="nav-link" href="./pages/productos.html">Productos</a>
+                    </li>
+                </ul>  
+            </div>
         </nav>
     </header>
+    
     <main>
         <span><h1>¡Bienvenidxs!</h1></span>
 
@@ -35,6 +62,7 @@
         <section>
             <div>
                 <h2>Arquitectura</h2>
+                <p>Por el momento, el navegador está hecho con Bootstrap y el resto con código vainilla.</p>
                 <p>La estructura general, entonces, se encuentra dividida en un index (<a href="./index.html">Inicio</a>) y las diferentes solapas o secciones específicas que vemos en el nav (<a href="./pages/recetas.html">Recetas</a>, <a href="./pages/nosotros.html">Nosotros</a> y <a href="./pages/productos.html">Productos</a>). Para una mejor navegación, a continuación están explicadas cada una:</p>
                 <ul class="ul-text">
                     <li>Esta misma página es el Inicio o la Página Principal.</li>
@@ -63,7 +91,7 @@
                     <h2>Sección extra para la Tarea 2</h2>
                     <p style="font-weight: bold;">En esta parte decidí agregar un efecto que me parece fantástico llamado PARALLAX.</p>
 
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, perferendis optio expedita veniam totam vel quo atque corrupti perspiciatis dolores, illo deserunt laudantium neque ea reprehenderit hic laboriosam quasi dignissimos, impedit nihil modi. Esse laborum quidem eveniet reiciendis nam a? Accusantium officia incidunt pariatur itaque ea alias recusandae velit tempore ut at consequatur nisi, quaerat eos enim eligendi exercitationem, magni repellat labore harum, dolor nulla. Assumenda doloremque in impedit aut odio excepturi, sapiente voluptate a praesentium! Architecto in unde aspernatur, reiciendis quo eius temporibus voluptatem sunt commodi doloremque. Praesentium tempore quasi autem aliquam nam iusto modi omnis beatae. Libero eius esse eum, rem expedita fuga pariatur nesciunt consectetur cumque tempora accusamus ipsa eaque nobis voluptatibus dicta laboriosam omnis aperiam itaque beatae voluptas laborum obcaecati vero veritatis? Corrupti, deleniti odio possimus optio fugiat nam numquam excepturi eius quidem praesentium eum. Iure autem maxime id. Ea adipisci cum velit asperiores cupiditate necessitatibus illo, fugiat quos! Dolorem fugit molestiae velit optio sit! Aliquid voluptates sunt obcaecati nesciunt illum inventore impedit ducimus consequuntur ullam iusto temporibus id labore velit atque, nobis sequi optio reprehenderit? Veritatis placeat rerum saepe voluptatem id quis suscipit, consequatur quisquam soluta? Eos tempora hic, quaerat libero similique excepturi quae. Maiores officiis expedita dolor ipsum doloribus, earum laborum. Delectus ab, reprehenderit, illum eum nisi alias excepturi quidem adipisci facilis error ea qui nesciunt beatae voluptatem, illo tenetur? Maiores totam nisi laudantium fugit eius. Porro autem ipsum perferendis excepturi vero veritatis ipsa quod, nesciunt nisi delectus, soluta suscipit animi? Rerum veniam perferendis architecto excepturi aspernatur vero, neque nesciunt odio repellendus minus ab quasi odit voluptatibus assumenda blanditiis obcaecati, voluptas adipisci aperiam dignissimos tenetur ipsam debitis natus? Eius repudiandae excepturi minima fugiat ipsum. Excepturi fugiat atque ab non, voluptatum nulla ipsum numquam harum asperiores sunt voluptate iure earum expedita. Quos necessitatibus excepturi, sed labore dolores doloribus at eum, error praesentium veniam architecto. Quam corporis dignissimos expedita nisi animi. Mollitia laudantium blanditiis aliquid nemo vitae rerum, iure reprehenderit exercitationem repellendus tempora dolore doloremque ex error aut cupiditate, ipsum, pariatur unde qui modi sequi neque omnis voluptatibus inventore. Quidem, ut recusandae blanditiis illum accusamus nisi voluptatem expedita pariatur eligendi minima modi exercitationem voluptatibus dicta quisquam adipisci nihil ipsum, libero distinctio. Ipsa corrupti enim nulla non voluptatibus ex a eum laborum cum incidunt. Excepturi mollitia ipsa laborum veritatis commodi, tempore consectetur doloribus, itaque neque quo delectus soluta numquam? Numquam rerum dignissimos facere esse similique minus culpa quo facilis sequi, nihil natus illo nulla expedita assumenda repudiandae. Enim consequuntur tempore magni saepe eaque blanditiis repellat impedit excepturi rerum quasi velit dolore earum dolorem, ducimus corrupti magnam officiis accusamus error at quod ut, sit, fugiat porro dicta.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, perferendis optio expedita veniam totam vel quo atque corrupti perspiciatis dolores, illo deserunt laudantium neque ea reprehenderit hic laboriosam quasi dignissimos, impedit nihil modi. Esse laborum quidem eveniet reiciendis nam a? Accusantium officia incidunt pariatur itaque ea alias recusandae velit tempore ut at consequatur nisi, quaerat eos enim eligendi exercitationem, magni repellat labore harum, dolor nulla. Assumenda doloremque in impedit aut odio excepturi, sapiente voluptate a praesentium! Architecto in unde aspernatur, reiciendis quo eius temporibus voluptatem sunt commodi doloremque. Praesentium tempore quasi autem aliquam nam iusto modi omnis beatae. Libero eius esse eum, rem expedita fuga pariatur nesciunt consectetur cumque tempora accusamus ipsa eaque nobis voluptatibus dicta laboriosam omnis aperiam itaque beatae voluptas laborum obcaecati vero veritatis? Corrupti, deleniti odio possimus optio fugiat nam numquam excepturi eius quidem praesentium eum. Iure autem maxime id. Ea adipisci cum velit asperiores cupiditate necessitatibus illo, fugiat quos! Dolorem fugit molestiae velit optio sit! Aliquid voluptates sunt obcaecati nesciunt illum inventore impedit ducimus consequuntur ullam iusto temporibus id labore velit atque, nobis sequi optio reprehenderit? Veritatis placeat rerum saepe voluptatem id quis suscipit, consequatur quisquam soluta? Eos tempora hic, quaerat libero similique excepturi quae. Maiores officiis expedita dolor ipsum doloribus, earum laborum. Delectus ab, reprehenderit, illum eum nisi alias excepturi quidem adipisci facilis error ea qui nesciunt beatae voluptatem, illo tenetur? Maiores totam nisi laudantium fugit eius. Porro autem ipsum perferendis excepturi vero veritatis ipsa quod, nesciunt nisi delectus, soluta suscipit animi? Rerum veniam perferendis architecto excepturi aspernatur vero, neque nesciunt odio repellendus minus ab quasi odit voluptatibus assumenda blanditiis obcaecati, voluptas adipisci aperiam dignissimos tenetur ipsam debitis natus? Eius repudiandae excepturi minima fugiat ipsum. Excepturi fugiat atque ab non, voluptatum nulla ipsum numquam harum asperiores sunt voluptate iure earum expedita.</p>
                 </div>
             </article> 
         </section>
@@ -81,5 +109,9 @@
         <p>Página creada por Aylén M. Bavosa Castro para el curso de promotores de BAMULTIPLICA</p>
         <p><a class="git-href" href="https://github.com/aylencastro/recetas_tarea">Link al Repositorio en Github</a></p>
     </footer>
+
+    <!-- JavaScript BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
