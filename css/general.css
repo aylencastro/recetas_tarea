@@ -22,12 +22,12 @@ main{
     margin-top: 4.2rem;
 }
 
-a, a:visited{
+main a, main a:visited{
     color: #902923;
     text-decoration: none !important;
 }
 
-a:hover{
+main a:hover{
     text-shadow: #A22C29 0.5px 0.5px;
 }
 
@@ -40,12 +40,12 @@ section{
     margin-bottom: 1rem;
 }
 
-p, .ul-text, label{
+p, .ul-text{
     font-family: 'Tenor Sans', sans-serif;
     text-align: justify;
     font-size: 1rem;
     color: #050807;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
 }
 
 h1{
@@ -63,8 +63,7 @@ img{
 }
 
 .separador{
-    width: 65%;
-    height: 3%;
+    width: 75%;
 }
 
 #img-cooking{
