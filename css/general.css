@@ -24,8 +24,9 @@ main{
 
 main a, main a:visited{
     color: #902923;
-    text-decoration: none !important;
 }
+
+a{text-decoration: none !important;}
 
 main a:hover{
     text-shadow: #A22C29 0.5px 0.5px;

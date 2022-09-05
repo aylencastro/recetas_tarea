@@ -1,20 +1,7 @@
 .prod-title{
-    color: #6a1e1a;
-    font-weight: 900;
+    background-color: #6a1e1a;
+    color: #D6D5C9;
     text-align: center;
-}
-
-.merch{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 65%;
-}
-
-.productos{
-    width: 45%;
-    height: 20rem;
-    margin-bottom: 1rem;
 }
 
 form{
