@@ -3,7 +3,7 @@
     width: 95%;
 }
 
-.recetas-texto ul li a:visited{
+.recetas-texto ul li a:visited, .recetas-texto ul li a:hover{
     color: #902923 !important;
 }
 
