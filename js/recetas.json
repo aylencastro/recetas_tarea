@@ -1,0 +1,51 @@
+{
+    "recetas":[
+    {
+        "href": "galletasDulces",
+        "comida":"Galletitas Dulces",
+        "ingredientes":[
+            "300 gr de harina", "200 gr de manteca", "100 gr de azúcar"
+        ],
+        "pasos":[
+            "Colocar en un recipiente el azúcar junto con la manteca pomada y unir por completo con la ayuda de una cuchara hasta formar una crema. Luego incorporar la harina y el polvo de hornear, por último unir todo con las manos hasta formar una masa.", "Llevar la mezcla a una superficie lisa y amasarla hasta lograr una bola unificada. Envolverla en papel film o una bolsa y llevar a la heladera por 30 minutos.", "Pasado el tiempo sacar la masa de la heladera y dar la forma deseada a las galletitas. Después llevar las galletas a la heladera por última vez y precalentar el horno en 180 °C.", "Llevar las masas ya frías directamente al horno. Se cocinan por 20 minutos aproximadamente o hasta que se vean un poco doradas. Dejar que enfríe antes de servir."
+        ]
+    },
+
+    {
+        "href": "mousseDDL",
+        "comida":"Mousse de Dulce de Leche",
+        "ingredientes":[
+            "250 gr. de dulce de leche", "150 gr. de crema de leche", "3 claras de huevo", "20 gr. de Azúcar", "Opcional: Chocolate rallado c/n"
+        ],
+        "pasos":[
+            "Colocar las claras en un bol y batir hasta punto nieve, al final agregar el azúcar y batir más fuerte por 2 minutos más.", "Batir la crema de leche hasta endurecer y de a poco incorporar el dulce de leche. Mezclar con movimientos envolventes, evitando así que se corte la crema.", "De a una ir incorporando las claras a la mezcla y continuar mezclando.","Con la crema lista llenar los recipientes individuales para mousse y llevar a la heladera. Refrigerar por 4 hs.","Decorar por arriba con chocolate rallado y servir."
+        ]
+    },
+
+    {
+        "href": "wokVerduras",
+        "comida":"Wok de verduras",
+        "ingredientes":[
+            "1 Cebolla", "1 Morrón", "1 Zanahoria", "1 Zucchini", "1 Chaucha o judía verde", "1 Berenjena", "1 Brócoli", "1 Ajo picado", "Sal c/n", "Pimienta"
+        ],
+        "pasos":[
+            "Cortar todas las verduras y reservarlas.", "Calentar un wok o un sartén con un poco de aceite de oliva en la base, cuando está caliente se agregan las verduras. Comenzar a cocinar a fuego fuerte.",  "Cada tanto mover un poco el sartén o con una espátula, pero con movimientos suaves evitando que se rompan. Continuar dorando.", "Pasados 10 minutos, agregar un poco de agua y la tapa. Se cocina así por 5 minutos más.", "Pasado el tiempo, ya esta casi listo. Por último se agrega la sal, el ajo picado y la pimienta. No volver a colocar la tapa, continuar cocinando y revolver cada tanto por 10 minutos más.", "Comprobar que los vegetales estén correctamente cocidos. Apagar el fuego y servir el wok de verduras como acompañamiento o plato principal."
+        ]
+    },
+
+    {
+        "href": "panCB",
+        "comida":"Pan Casero de tipo Baguette",
+        "ingredientes":[
+            "400 g. harina 000", "275 ml. de agua", "8 g. sal", "10 g. levadura fresca (o 4 g. levadura seca)"
+        ],
+        "pasos":[
+            "Disolver la levadura fresca en agua a temperatura ambiente.", "En un recipiente colocar la harina con una cdita. de sal. En el centro incorporar la mezcla de agua con levadura. Mezclar todo hasta unir bien.", "Llevar la masa a una superficie lisa y comenzar a amasar por 10-15 minutos.", "Una vez que la pasa está lista y elástica, colocarla nuevamente en un recipiente y dejar reposar 40 minutos o hasta duplicar su volumen.", "Pasado el tiempo, doblar la masa sobre sí misma y dejarla en reposo por 40 minutos más.", "Colocar un poco de harina sobre una superficie, volcar en ella la masa y dividirla en 3 trozos iguales. Luego hacer un bollo con cada uno y dejarlos reposar por 15 minutos.", "Pasado el tiempo, formar rectángulos con cada uno de los bollos para luego darle la forma de baguette . Siempre tratando la masa con mucho cuidado.", "Formadas las tres tiras, colocar bastante harina sobre un repasador y acomodar las baguettes sobre este. Dejarlas levar hasta que doblen su volumen (40-60 minutos).", "Por último, colocarlas sobre una fuente para horno, realizar unos pequeños cortes por arriba e introducirlas al horno precalentado a 150º-160º.", "Debajo de la fuente se coloca otra con agua caliente para generar vapor durante la primera cocción. Si se empiezan a tostar se baja la temperatura y se continua la cocción."
+        ],
+        "video": { 
+            "url": "https://www.youtube.com/embed/dq8aSdjpU_A",
+            "titulo": "¡Video Original de Pan Casero!"
+        }
+    }
+    ]
+}

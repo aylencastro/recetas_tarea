@@ -7,12 +7,9 @@
     color: #902923 !important;
 }
 
-iframe{
-    height: 30rem;
-    width: 100%;
-}
-
 #video-pan{
     justify-content: center;
-    height:fit-content
+    height:fit-content;
+    height: 30rem;
+    width: 100%;
 }
