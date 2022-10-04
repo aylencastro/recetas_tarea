@@ -1,11 +1,11 @@
 fetch('../js/recetas.json')
   .then((response) => response.json())
   .then((data) => {
-    console.log('Éxito:', data);
+    console.log('¡Abracadabra!:', data);
     mostrarRecetas(data);
   })
   .catch((error) => {
-    console.error('Habemus un error :( -->', error);
+    console.error('Houston tenemos un problema:', error);
   });
 
 function mostrarRecetas(data) {
